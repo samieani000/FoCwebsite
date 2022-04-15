@@ -1,32 +1,118 @@
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<body>
+<html lang="en-US">
+	
+	<head>
+		<meta charset="UTF-8"><!-- Specify character encoding -->
+		<meta name="keywords" content="Future of Code, code"> <!-- Search engine keywords-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Set viewport for  multiple device display sizes -->
+		<link rel="stylesheet" href="focStylesheet.css">
+		<script src="focJavaScript.js" defer></script>
+	</head>
+	
+	<body>
+		<header>
+			<div id="header">
+				<img src="images/headerLogo.png" alt="Future of Code logo" class="leftImg">
+				<h1 id="headerText">Future of Code</h1>
+			</div>
+		
+			<div>
+				<nav class="navBar">
+					<a href="#home" class="navButton">Home</a>
+					<a href="#Volunteer" class="navButton">Volunteer</a>
+					<a href="#Our Team" class="navButton">Our Team</a>
+					<a href="#Donate" class="navButton">Donate</a>
+					<a href="#Volunteer Login" class="navButton">Volunteer Login</a>
+				</nav>
+				<span>.</span>
+			</div>
+		</header>
+		
+		<main>
+			<div id="upperMainDiv">
+				<!-- Look into pulling this information from the database? -->
+				<div class="slideshowSection">
+					<div class="slideshow">
+						<div class="slide fade">
+							<span class="slideNum">1 / 3</span>
+							<img src="images/ss1Alt.png" class="slideImg">
+							<span class="slideText">While we are experiencing a shutdown of our clubs, we will be hosting an online class every thursday at 6:30pm. Sign up with a youtube account to interact with other students and the teachers.</span>
+						</div>
+						
+						<div class="slide fade">
+							<span class="slideNum">2 / 3</span>
+							<img src="images/ss2Alt.png" class="slideImg">
+							<span class="slideText">Central Vancouver Club is located just west of the Vancouver Mall off of Highway 500. It is open every Tuesday from 6pm to 7:30pm</span>
+						</div>
+			
+						<div class="slide fade">
+							<span class="slideNum">3 / 3</span>
+							<img src="images/ss3Alt.png" class="slideImg">
+							<span class="slideText">Salmon Creek Club is located west of the I-205 and I-5 junction. It is open every Thursday from 6:30pm to 8pm.</span>
+						</div>
+			
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+					<br>
+					<div class="slideDots">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+				</div>
+					
+				<div>
+					<span>This is a bunch of text that will talk about what Future of Code is, along with mission statement and values and all that. This is a bunch of text that will talk about what Future of Code is, along with mission statement and values and all that. This is a bunch of text that will talk about what Future of Code is, along with mission statement and values and all that. This is a bunch of text that will talk about what Future of Code is, along with mission statement and values and all that.</span>
+				</div>
+					
+			</div>
+		</main>
+	</body>
+</html>
 
-<div class="w3-container w3-teal">
-<h1>
-<img src="futureofcode.png" alt="Logo" style="width:5%">
-Future of Code
-</h1>
-<!-- Navigation -->
-<nav class="w3-bar w3-teal">
-  <a href="#home" class="w3-button w3-bar-item">Home</a>
-  <a href="#volunteer" class="w3-button w3-bar-item">Volunteer</a>
-  <a href="#our_team" class="w3-button w3-bar-item">Our Team</a>
-  <a href="#donate" class="w3-button w3-bar-item">Donate</a>
-  <a href="#volunteer_login" class="w3-button w3-bar-item">Volunteer Login</a>
-</nav>
-</div>
+
+
+
+
+
+
+
+<!--
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	
+	</head>
+	
+	<body>
+
+		<div class="w3-container w3-teal">
+			<h1>
+				<img src="futureofcode.png" alt="Logo" style="width:5%">
+				Future of Code
+			</h1>
+			<!-- Navigation -->
+			<!--
+			<nav class="w3-bar w3-teal">
+				<a href="#home" class="w3-button w3-bar-item">Home</a>
+				<a href="#volunteer" class="w3-button w3-bar-item">Volunteer</a>
+				<a href="#our_team" class="w3-button w3-bar-item">Our Team</a>
+				<a href="#donate" class="w3-button w3-bar-item">Donate</a>
+				<a href="#volunteer_login" class="w3-button w3-bar-item">Volunteer Login</a>
+			</nav>
+		</div>
 
 <!-- Content will go here -->
+<!--
+		<section class="w3-container w3-center w3-content" style="max-width:600px">
+			<h2 class="w3-wide">Content</h2>
+			<p class="w3-opacity"><i>different content</i></p>
+			<p class="w3-justify">more content more content more content more content more content more content more content more content more content more content</p>
+		</section>
 
-<section class="w3-container w3-center w3-content" style="max-width:600px">
-  <h2 class="w3-wide">Content</h2>
-  <p class="w3-opacity"><i>different content</i></p>
-  <p class="w3-justify">more content more content more content more content more content more content more content more content more content more content</p>
-</section>
-
-</body>
+	</body>
+	
 </html>
+--!>
