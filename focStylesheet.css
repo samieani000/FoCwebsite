@@ -197,4 +197,12 @@ main{
 	float:right;
 }
 
+.bottomBar{
+	background-color: #FCBB90;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
 
